@@ -1,0 +1,7 @@
+streamlit==1.23.0
+pandas==2.0.3
+numpy==1.23.5
+sentence-transformers==2.2.2
+python-dotenv==0.19.2
+supabase==1.0.3
+phidata==1.8.0

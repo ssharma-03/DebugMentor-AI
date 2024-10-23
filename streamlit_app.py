@@ -93,7 +93,7 @@ if not df.empty:
     ids, embeddings = generate_embeddings(df)
 
 # Streamlit app
-st.title("Debugers Connect AI")
+st.title("Debuggers Connect AI")
 
 # Input text box for user question
 user_input = st.text_input("What do you want to know?", "")

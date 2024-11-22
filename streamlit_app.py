@@ -120,7 +120,7 @@ if st.button("Ask"):
                     st.markdown("### Related Trainers for your query:")
                     for idx in indices:
                         trainer = df.iloc[idx]
-                        st.markdown(f"- **Name**: {trainer['name']}, **Domain**: {trainer['domain']}, **Skills**: {trainer['skills']}, **Experience**: {trainer['experience']} years")
+                        st.markdown(f"- **Name**: {trainer['name']}, **Domain**: {trainer['domain']}, **Skills**: {trainer['skills']}, **Experience**: {trainer['experience']} Months")
                         
                         # Create a clickable button for each trainer
                         st.markdown(f'<a href="{trainer["links"]}" target="_blank"><button style="background-color:#4CAF50; color:white; padding:10px; border:none; border-radius:4px; cursor:pointer;">Chat with {trainer["name"]}</button></a>', unsafe_allow_html=True)
